@@ -5,19 +5,21 @@ const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
 
 // En production (Vercel), utiliser Prisma Accelerate
 // En développement, utiliser la connexion directe avec l'adapter
-const prismaConfig =
-  process.env.PRISMA_ACCELERATE_URL && process.env.NODE_ENV === "production"
-    ? {
+const isDevelopment = process.env.NODE_ENV === "development";
+const isProduction = process.env.NODE_ENV === "production";
+
+export const prisma =
+  globalForPrisma.prisma ||
+  (process.env.PRISMA_ACCELERATE_URL && isProduction
+    ? new PrismaClient({
         accelerateUrl: process.env.PRISMA_ACCELERATE_URL,
-        log: ["error"] as const,
-      }
-    : {
+        log: ["error"],
+      })
+    : new PrismaClient({
         adapter: new PrismaPg({
           connectionString: process.env.DATABASE_URL!,
         }),
-        log: (process.env.NODE_ENV === "development" ? ["query", "error", "warn"] : ["error"]) as const,
-      };
+        log: isDevelopment ? ["query", "error", "warn"] : ["error"],
+      }));
 
-export const prisma = globalForPrisma.prisma || new PrismaClient(prismaConfig);
-
-if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
+if (!isProduction) globalForPrisma.prisma = prisma;
