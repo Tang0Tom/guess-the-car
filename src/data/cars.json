@@ -1,0 +1,502 @@
+[
+  {
+    "id": "bmw-m3-2023",
+    "make": "BMW",
+    "model": "M3",
+    "modelFamily": "3 Series",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BMW_M3_Competition_%28G80%29_IMG_4041.jpg/800px-BMW_M3_Competition_%28G80%29_IMG_4041.jpg"
+  },
+  {
+    "id": "bmw-x5-2023",
+    "make": "BMW",
+    "model": "X5",
+    "modelFamily": "X5",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_M50d_Automatic_3.0.jpg/800px-2019_BMW_X5_M50d_Automatic_3.0.jpg"
+  },
+  {
+    "id": "mercedes-c-class-2023",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "modelFamily": "C Class",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes-Benz_W206_IMG_6380.jpg/800px-Mercedes-Benz_W206_IMG_6380.jpg"
+  },
+  {
+    "id": "mercedes-amg-gt-2023",
+    "make": "Mercedes-Benz",
+    "model": "AMG GT",
+    "modelFamily": "AMG GT",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Festival_automobile_international_2015_-_Mercedes_AMG_GT_-_003.jpg/800px-Festival_automobile_international_2015_-_Mercedes_AMG_GT_-_003.jpg"
+  },
+  {
+    "id": "audi-a4-2023",
+    "make": "Audi",
+    "model": "A4",
+    "modelFamily": "A4",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/800px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg"
+  },
+  {
+    "id": "audi-r8-2023",
+    "make": "Audi",
+    "model": "R8",
+    "modelFamily": "R8",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Audi_R8_Coupe_V10_plus_Front.jpg/800px-2018_Audi_R8_Coupe_V10_plus_Front.jpg"
+  },
+  {
+    "id": "porsche-911-2023",
+    "make": "Porsche",
+    "model": "911",
+    "modelFamily": "911",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg/800px-Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg"
+  },
+  {
+    "id": "porsche-cayenne-2023",
+    "make": "Porsche",
+    "model": "Cayenne",
+    "modelFamily": "Cayenne",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Porsche_Cayenne_%28III%2C_Facelift%29_%E2%80%93_f_01012025.jpg/800px-Porsche_Cayenne_%28III%2C_Facelift%29_%E2%80%93_f_01012025.jpg"
+  },
+  {
+    "id": "porsche-taycan-2023",
+    "make": "Porsche",
+    "model": "Taycan",
+    "modelFamily": "Taycan",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2020_Porsche_Taycan_4S_79kWh_Front.jpg/800px-2020_Porsche_Taycan_4S_79kWh_Front.jpg"
+  },
+  {
+    "id": "porsche-macan-2023",
+    "make": "Porsche",
+    "model": "Macan",
+    "modelFamily": "Macan",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Porsche_Macan_4_IMG_2153.jpg/800px-Porsche_Macan_4_IMG_2153.jpg"
+  },
+  {
+    "id": "ferrari-f8-2023",
+    "make": "Ferrari",
+    "model": "F8 Tributo",
+    "modelFamily": "F8",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ferrari_F8_Tributo_Genf_2019_1Y7A5665.jpg/800px-Ferrari_F8_Tributo_Genf_2019_1Y7A5665.jpg"
+  },
+  {
+    "id": "ferrari-roma-2023",
+    "make": "Ferrari",
+    "model": "Roma",
+    "modelFamily": "Roma",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2021_Ferrari_Roma_in_Rosso_Fiorano%2C_front_right.jpg/800px-2021_Ferrari_Roma_in_Rosso_Fiorano%2C_front_right.jpg"
+  },
+  {
+    "id": "lamborghini-huracan-2023",
+    "make": "Lamborghini",
+    "model": "Huracán",
+    "modelFamily": "Huracan",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2017_Lamborghini_Huracan_LP610.jpg/800px-2017_Lamborghini_Huracan_LP610.jpg"
+  },
+  {
+    "id": "lamborghini-urus-2023",
+    "make": "Lamborghini",
+    "model": "Urus",
+    "modelFamily": "Urus",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lamborghini_Urus_SE_DSC_8524.jpg/800px-Lamborghini_Urus_SE_DSC_8524.jpg"
+  },
+  {
+    "id": "toyota-supra-2023",
+    "make": "Toyota",
+    "model": "GR Supra",
+    "modelFamily": "Supra",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/2019_Toyota_Supra_Pro_Automatic_3.0_Front.jpg/800px-2019_Toyota_Supra_Pro_Automatic_3.0_Front.jpg"
+  },
+  {
+    "id": "toyota-camry-2023",
+    "make": "Toyota",
+    "model": "Camry",
+    "modelFamily": "Camry",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/800px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg"
+  },
+  {
+    "id": "toyota-rav4-2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "modelFamily": "RAV4",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/2019_Toyota_RAV4_LE_2.5L_front_4.14.19.jpg/800px-2019_Toyota_RAV4_LE_2.5L_front_4.14.19.jpg"
+  },
+  {
+    "id": "honda-civic-2023",
+    "make": "Honda",
+    "model": "Civic",
+    "modelFamily": "Civic",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg/800px-Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg"
+  },
+  {
+    "id": "honda-civic-type-r-2023",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "modelFamily": "Civic Type R",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2024_Honda_Civic_Type_R%2C_front_right%2C_06-15-2024.jpg/800px-2024_Honda_Civic_Type_R%2C_front_right%2C_06-15-2024.jpg"
+  },
+  {
+    "id": "ford-mustang-2024",
+    "make": "Ford",
+    "model": "Mustang",
+    "modelFamily": "Mustang",
+    "year": 2024,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2018_Ford_Mustang_GT_5.0.jpg/800px-2018_Ford_Mustang_GT_5.0.jpg"
+  },
+  {
+    "id": "ford-bronco-2023",
+    "make": "Ford",
+    "model": "Bronco",
+    "modelFamily": "Bronco",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg/800px-Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg"
+  },
+  {
+    "id": "ford-gt-2023",
+    "make": "Ford",
+    "model": "GT",
+    "modelFamily": "GT",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ford_GT_2018_and_Ford_GT_1968_at_Legendy_2019_in_Prague_%28cropped%29.jpg/800px-Ford_GT_2018_and_Ford_GT_1968_at_Legendy_2019_in_Prague_%28cropped%29.jpg"
+  },
+  {
+    "id": "chevrolet-corvette-2023",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "modelFamily": "Corvette",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2021_Chevrolet_Corvette_C8.jpg/800px-2021_Chevrolet_Corvette_C8.jpg"
+  },
+  {
+    "id": "chevrolet-camaro-2023",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "modelFamily": "Camaro",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2019_Chevrolet_Camaro_2SS_6.2L_front_3.16.19.jpg/800px-2019_Chevrolet_Camaro_2SS_6.2L_front_3.16.19.jpg"
+  },
+  {
+    "id": "nissan-gtr-2023",
+    "make": "Nissan",
+    "model": "GT-R",
+    "modelFamily": "GT-R",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/2009-2010_Nissan_GT-R_%28R35%29_coupe_01.jpg/800px-2009-2010_Nissan_GT-R_%28R35%29_coupe_01.jpg"
+  },
+  {
+    "id": "mazda-mx5-2023",
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "modelFamily": "MX-5",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg/800px-Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg"
+  },
+  {
+    "id": "volkswagen-golf-2023",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "modelFamily": "Golf",
+    "year": 2023,
+    "category": "hatchback",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Volkswagen_Golf_Style_1.5_Front.jpg/800px-2020_Volkswagen_Golf_Style_1.5_Front.jpg"
+  },
+  {
+    "id": "tesla-model-3-2023",
+    "make": "Tesla",
+    "model": "Model 3",
+    "modelFamily": "Model 3",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2019_Tesla_Model_3_Performance_AWD_Front.jpg/800px-2019_Tesla_Model_3_Performance_AWD_Front.jpg"
+  },
+  {
+    "id": "tesla-model-s-2023",
+    "make": "Tesla",
+    "model": "Model S",
+    "modelFamily": "Model S",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg/800px-Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "tesla-cybertruck-2024",
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "modelFamily": "Cybertruck",
+    "year": 2024,
+    "category": "truck",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2024_Tesla_Cybertruck_Foundation_Series%2C_front_left_%28Greenwich%29.jpg/800px-2024_Tesla_Cybertruck_Foundation_Series%2C_front_left_%28Greenwich%29.jpg"
+  },
+  {
+    "id": "hyundai-ioniq5-2023",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "modelFamily": "IONIQ 5",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg/800px-Hyundai_Ioniq_5_AWD_Techniq-Paket_%E2%80%93_f_31122024.jpg"
+  },
+  {
+    "id": "kia-ev6-2023",
+    "make": "Kia",
+    "model": "EV6",
+    "modelFamily": "EV6",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/800px-2021_Kia_EV6_GT-Line_S.jpg"
+  },
+  {
+    "id": "land-rover-defender-2023",
+    "make": "Land Rover",
+    "model": "Defender",
+    "modelFamily": "Defender",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg/800px-2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg"
+  },
+  {
+    "id": "land-rover-range-rover-2023",
+    "make": "Land Rover",
+    "model": "Range Rover",
+    "modelFamily": "Range Rover",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2022_Land_Rover_Range_Rover_SE_P440e_AWD_Automatic_3.0_Front.jpg/800px-2022_Land_Rover_Range_Rover_SE_P440e_AWD_Automatic_3.0_Front.jpg"
+  },
+  {
+    "id": "jeep-wrangler-2023",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "modelFamily": "Wrangler",
+    "year": 2023,
+    "category": "suv",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2018_Jeep_Wrangler_Sahara_Unlimited_Multijet_2.1_Front.jpg/800px-2018_Jeep_Wrangler_Sahara_Unlimited_Multijet_2.1_Front.jpg"
+  },
+  {
+    "id": "dodge-challenger-2023",
+    "make": "Dodge",
+    "model": "Challenger",
+    "modelFamily": "Challenger",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "easy",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Dodge_Challenger_SRT8_%282015%29_Hirschaid-20220709-RM-120221.jpg/800px-Dodge_Challenger_SRT8_%282015%29_Hirschaid-20220709-RM-120221.jpg"
+  },
+  {
+    "id": "jaguar-f-type-2023",
+    "make": "Jaguar",
+    "model": "F-Type",
+    "modelFamily": "F-TYPE",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2017_Jaguar_F-Type_V6_R-Dynamic_Automatic_3.0_Front.jpg/800px-2017_Jaguar_F-Type_V6_R-Dynamic_Automatic_3.0_Front.jpg"
+  },
+  {
+    "id": "bentley-continental-2023",
+    "make": "Bentley",
+    "model": "Continental GT",
+    "modelFamily": "Continental GT",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bentley_Continental_GT_First_Edition_%2849919050697%29_%28cropped%29_%28cropped%29.jpg/800px-Bentley_Continental_GT_First_Edition_%2849919050697%29_%28cropped%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "mclaren-720s-2023",
+    "make": "McLaren",
+    "model": "720S",
+    "modelFamily": "720S",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/800px-2018_McLaren_720S_V8_S-A_4.0.jpg"
+  },
+  {
+    "id": "aston-martin-vantage-2023",
+    "make": "Aston Martin",
+    "model": "Vantage",
+    "modelFamily": "Vantage",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2019_Aston_Martin_Vantage_V8_Automatic_4.0_%281%29.jpg/800px-2019_Aston_Martin_Vantage_V8_Automatic_4.0_%281%29.jpg"
+  },
+  {
+    "id": "bugatti-chiron-2023",
+    "make": "Bugatti",
+    "model": "Chiron",
+    "modelFamily": "Chiron",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bugatti_Chiron_1.jpg/800px-Bugatti_Chiron_1.jpg"
+  },
+  {
+    "id": "alfa-romeo-giulia-2023",
+    "make": "Alfa Romeo",
+    "model": "Giulia",
+    "modelFamily": "Giulia",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Alfa_952_26.06.19_JM_%281%29_%28cropped%29.jpg/800px-Alfa_952_26.06.19_JM_%281%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "lexus-lc500-2023",
+    "make": "Lexus",
+    "model": "LC 500",
+    "modelFamily": "LC",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2023_Lexus_LC500_in_Atomic_Silver%2C_front_left.jpg/800px-2023_Lexus_LC500_in_Atomic_Silver%2C_front_left.jpg"
+  },
+  {
+    "id": "subaru-wrx-2023",
+    "make": "Subaru",
+    "model": "WRX",
+    "modelFamily": "WRX",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2024_Subaru_WRX_Project_Midnight_-_01.jpg/800px-2024_Subaru_WRX_Project_Midnight_-_01.jpg"
+  },
+  {
+    "id": "subaru-brz-2023",
+    "make": "Subaru",
+    "model": "BRZ",
+    "modelFamily": "BRZ",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/ALL-NEW_SUBARU_BRZ%40BIMS_by_TrisT_02.jpg/800px-ALL-NEW_SUBARU_BRZ%40BIMS_by_TrisT_02.jpg"
+  },
+  {
+    "id": "peugeot-208-2023",
+    "make": "Peugeot",
+    "model": "208",
+    "modelFamily": "208",
+    "year": 2023,
+    "category": "hatchback",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg/800px-Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg"
+  },
+  {
+    "id": "renault-clio-2023",
+    "make": "Renault",
+    "model": "Clio",
+    "modelFamily": "Clio",
+    "year": 2023,
+    "category": "hatchback",
+    "difficulty": "medium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Renault_Clio_%28V%2C_Facelift%29_%E2%80%93_f_02092025.jpg/800px-Renault_Clio_%28V%2C_Facelift%29_%E2%80%93_f_02092025.jpg"
+  },
+  {
+    "id": "alpine-a110-2023",
+    "make": "Alpine",
+    "model": "A110",
+    "modelFamily": "A110",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Alpine_A110_S_Automesse_Ludwigsburg_2022_1X7A5946.jpg/800px-Alpine_A110_S_Automesse_Ludwigsburg_2022_1X7A5946.jpg"
+  },
+  {
+    "id": "rolls-royce-phantom-2023",
+    "make": "Rolls-Royce",
+    "model": "Phantom",
+    "modelFamily": "Phantom",
+    "year": 2023,
+    "category": "sedan",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/2019_Rolls-Royce_Phantom_V12_Automatic_6.75.jpg/800px-2019_Rolls-Royce_Phantom_V12_Automatic_6.75.jpg"
+  },
+  {
+    "id": "maserati-mc20-2023",
+    "make": "Maserati",
+    "model": "MC20",
+    "modelFamily": "MC20",
+    "year": 2023,
+    "category": "sports",
+    "difficulty": "hard",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Maserati_MC20_IAA_2021_1X7A0087.jpg/800px-Maserati_MC20_IAA_2021_1X7A0087.jpg"
+  }
+]

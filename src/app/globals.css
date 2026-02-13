@@ -1,26 +1,114 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: #0a0a0a;
+  --color-foreground: #e8e4e0;
+  --color-surface: #141414;
+  --color-surface-light: #1e1e1e;
+  --color-border: #2a2a2a;
+  --color-amber: #ff6b00;
+  --color-amber-light: #ff8a33;
+  --color-amber-dark: #cc5500;
+  --color-amber-glow: rgba(255, 107, 0, 0.15);
+  --color-green: #00d26a;
+  --color-red: #ff3b3b;
+  --color-muted: #6b6560;
+  --font-display: var(--font-orbitron);
+  --font-body: var(--font-barlow);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Carbon fiber texture for backgrounds */
+.bg-carbon {
+  background-image:
+    linear-gradient(45deg, #111 25%, transparent 25%),
+    linear-gradient(-45deg, #111 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #111 75%),
+    linear-gradient(-45deg, transparent 75%, #111 75%);
+  background-size: 4px 4px;
+  background-position: 0 0, 0 2px, 2px -2px, -2px 0;
+}
+
+/* Glow effects */
+.glow-amber {
+  box-shadow: 0 0 20px rgba(255, 107, 0, 0.3), 0 0 60px rgba(255, 107, 0, 0.1);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(0, 210, 106, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(255, 59, 59, 0.3);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 20px rgba(255, 107, 0, 0.5);
+}
+
+/* Instrument cluster stripe */
+.stripe-amber {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-amber) 0px,
+    var(--color-amber) 2px,
+    transparent 2px,
+    transparent 6px
+  );
+}
+
+/* Smooth blur transition */
+.blur-transition {
+  transition: filter 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Score pop animation */
+@keyframes score-pop {
+  0% { transform: scale(0.5); opacity: 0; }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-score-pop {
+  animation: score-pop 0.4s ease-out forwards;
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 0, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(255, 107, 0, 0.6); }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Timer ring */
+@keyframes countdown {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: 283; }
+}
+
+/* Noise grain overlay */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 50;
 }
